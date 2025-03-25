@@ -43,5 +43,9 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+4. nvim 실행한뒤 
+
+<space> -> ks # 메시지 전송
+<space> -> kr # 응답 가져오기
 
 
