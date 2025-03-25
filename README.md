@@ -8,6 +8,7 @@ nvim 작업시 카톡창이 다른 모니터에 있어 마우스를 움직이는
 구현하게 되었습니다. 
 
 ## 구성
+```
 .
 ├── README.md
 ├── kakao-server
@@ -16,7 +17,7 @@ nvim 작업시 카톡창이 다른 모니터에 있어 마우스를 움직이는
 └── nvim-kakaobot
     └── lua
         └── kakaobot.lua
-
+```
 
 
 ## 사용법
