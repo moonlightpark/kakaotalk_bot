@@ -56,4 +56,9 @@ vim.api.nvim_create_user_command("KakaoReply", function()
   M.get_response()
 end, {})
 
+-- 키맵 등록
+vim.keymap.set("n", "<leader>ks", ":KakaoSend<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>kr", ":KakaoReply<CR>", { noremap = true, silent = true })
+
+
 return M
