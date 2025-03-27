@@ -33,6 +33,9 @@ cp -p ./nvim-kakaobot/lua/kakaobot.lua ~/.config/nvim/lua/kakaobot.lua
 ```lua
 # ~/.config/nvim/init.lua에 추가
 require("kakaobot")
+
+kakaobot.lua > ~/.config/nvim/lua/ 에 복사
+linebot.lua > ~/.config/nvim/lua/ 에 복사
 ```
 
 
