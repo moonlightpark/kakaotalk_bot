@@ -41,7 +41,16 @@ linebot.lua > ~/.config/nvim/lua/ 에 복사
 
 3. 서버 실행
 ```bash
+use 8000 port
 cd ./kakao-server
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 main.py
+
+
+use 8001 port
+cd ./line-server
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -50,7 +59,9 @@ python3 main.py
 
 4. nvim 실행한뒤 
 ```
-<space> -> ks # 메시지 전송
-<space> -> kr # 응답 가져오기
+<space> -> ks # KAKAO 메시지 전송
+<space> -> kr # KAKAO 응답 가져오기
+<space> -> ls # LINE 메시지 전송
+<space> -> lr # LINE 응답 가져오기
 ```
 
